@@ -1,0 +1,26 @@
+name: dataanalice
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  cronet_http: ^1.0.0
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+  file_picker: ^11.0.2
+  cristalyse: ^1.17.6
+  flutter_markdown: ^0.7.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
