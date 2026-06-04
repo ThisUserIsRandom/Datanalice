@@ -1,0 +1,180 @@
+{
+  "total_rows": 100,
+  "total_columns": 9,
+  "dtypes": {
+    "Index": "int64",
+    "User Id": "str",
+    "First Name": "str",
+    "Last Name": "str",
+    "Sex": "str",
+    "Email": "str",
+    "Phone": "str",
+    "Date of birth": "str",
+    "Job Title": "str"
+  },
+  "null_counts": {
+    "Index": 0,
+    "User Id": 0,
+    "First Name": 0,
+    "Last Name": 0,
+    "Sex": 0,
+    "Email": 0,
+    "Phone": 0,
+    "Date of birth": 0,
+    "Job Title": 0
+  },
+  "null_pct": {
+    "Index": 0.0,
+    "User Id": 0.0,
+    "First Name": 0.0,
+    "Last Name": 0.0,
+    "Sex": 0.0,
+    "Email": 0.0,
+    "Phone": 0.0,
+    "Date of birth": 0.0,
+    "Job Title": 0.0
+  },
+  "unique_counts": {
+    "Index": 100,
+    "User Id": 100,
+    "First Name": 94,
+    "Last Name": 95,
+    "Sex": 2,
+    "Email": 100,
+    "Phone": 100,
+    "Date of birth": 100,
+    "Job Title": 91
+  },
+  "memory_usage_bytes": 17451,
+  "numeric_stats": {
+    "Index": {
+      "min": 1.0,
+      "max": 100.0,
+      "mean": 50.5,
+      "median": 50.5,
+      "std": 29.011491975882016,
+      "q25": 25.75,
+      "q75": 75.25,
+      "skew": 0.0
+    }
+  },
+  "categorical_top": {
+    "Sex": {
+      "Female": 53,
+      "Male": 47
+    }
+  },
+  "sample_rows": [
+    {
+      "Index": 1,
+      "User Id": "88F7B33d2bcf9f5",
+      "First Name": "Shelby",
+      "Last Name": "Terrell",
+      "Sex": "Male",
+      "Email": "elijah57@example.net",
+      "Phone": "001-084-906-7849x73518",
+      "Date of birth": "1945-10-26",
+      "Job Title": "Games developer"
+    },
+    {
+      "Index": 2,
+      "User Id": "f90cD3E76f1A9b9",
+      "First Name": "Phillip",
+      "Last Name": "Summers",
+      "Sex": "Female",
+      "Email": "bethany14@example.com",
+      "Phone": "214.112.6044x4913",
+      "Date of birth": "1910-03-24",
+      "Job Title": "Phytotherapist"
+    },
+    {
+      "Index": 3,
+      "User Id": "DbeAb8CcdfeFC2c",
+      "First Name": "Kristine",
+      "Last Name": "Travis",
+      "Sex": "Male",
+      "Email": "bthompson@example.com",
+      "Phone": "277.609.7938",
+      "Date of birth": "1992-07-02",
+      "Job Title": "Homeopath"
+    },
+    {
+      "Index": 4,
+      "User Id": "A31Bee3c201ef58",
+      "First Name": "Yesenia",
+      "Last Name": "Martinez",
+      "Sex": "Male",
+      "Email": "kaitlinkaiser@example.com",
+      "Phone": "584.094.6111",
+      "Date of birth": "2017-08-03",
+      "Job Title": "Market researcher"
+    },
+    {
+      "Index": 5,
+      "User Id": "1bA7A3dc874da3c",
+      "First Name": "Lori",
+      "Last Name": "Todd",
+      "Sex": "Male",
+      "Email": "buchananmanuel@example.net",
+      "Phone": "689-207-3558x7233",
+      "Date of birth": "1938-12-01",
+      "Job Title": "Veterinary surgeon"
+    },
+    {
+      "Index": 6,
+      "User Id": "bfDD7CDEF5D865B",
+      "First Name": "Erin",
+      "Last Name": "Day",
+      "Sex": "Male",
+      "Email": "tconner@example.org",
+      "Phone": "001-171-649-9856x5553",
+      "Date of birth": "2015-10-28",
+      "Job Title": "Waste management officer"
+    },
+    {
+      "Index": 7,
+      "User Id": "bE9EEf34cB72AF7",
+      "First Name": "Katherine",
+      "Last Name": "Buck",
+      "Sex": "Female",
+      "Email": "conniecowan@example.com",
+      "Phone": "+1-773-151-6685x49162",
+      "Date of birth": "1989-01-22",
+      "Job Title": "Intelligence analyst"
+    },
+    {
+      "Index": 8,
+      "User Id": "2EFC6A4e77FaEaC",
+      "First Name": "Ricardo",
+      "Last Name": "Hinton",
+      "Sex": "Male",
+      "Email": "wyattbishop@example.com",
+      "Phone": "001-447-699-7998x88612",
+      "Date of birth": "1924-03-26",
+      "Job Title": "Hydrogeologist"
+    },
+    {
+      "Index": 9,
+      "User Id": "baDcC4DeefD8dEB",
+      "First Name": "Dave",
+      "Last Name": "Farrell",
+      "Sex": "Male",
+      "Email": "nmccann@example.net",
+      "Phone": "603-428-2429x27392",
+      "Date of birth": "2018-10-06",
+      "Job Title": "Lawyer"
+    },
+    {
+      "Index": 10,
+      "User Id": "8e4FB470FE19bF0",
+      "First Name": "Isaiah",
+      "Last Name": "Downs",
+      "Sex": "Male",
+      "Email": "virginiaterrell@example.org",
+      "Phone": "+1-511-372-1544x8206",
+      "Date of birth": "1964-09-20",
+      "Job Title": "Engineer, site"
+    }
+  ],
+  "profile_summary": "This dataset contains 100 rows and 9 columns.\n\nColumn details:\n  - Index (int64): 100 unique values, range [1 \u2013 100], mean 50.5\n  - User Id (str): 100 unique values\n  - First Name (str): 94 unique values\n  - Last Name (str): 95 unique values\n  - Sex (str): 2 unique values\n  - Email (str): 100 unique values\n  - Phone (str): 100 unique values\n  - Date of birth (str): 100 unique values\n  - Job Title (str): 91 unique values\n\nFirst 5 rows:\n Index         User Id First Name Last Name    Sex                      Email                  Phone Date of birth          Job Title\n     1 88F7B33d2bcf9f5     Shelby   Terrell   Male       elijah57@example.net 001-084-906-7849x73518    1945-10-26    Games developer\n     2 f90cD3E76f1A9b9    Phillip   Summers Female      bethany14@example.com      214.112.6044x4913    1910-03-24     Phytotherapist\n     3 DbeAb8CcdfeFC2c   Kristine    Travis   Male      bthompson@example.com           277.609.7938    1992-07-02          Homeopath\n     4 A31Bee3c201ef58    Yesenia  Martinez   Male  kaitlinkaiser@example.com           584.094.6111    2017-08-03  Market researcher\n     5 1bA7A3dc874da3c       Lori      Todd   Male buchananmanuel@example.net      689-207-3558x7233    1938-12-01 Veterinary surgeon"
+}
